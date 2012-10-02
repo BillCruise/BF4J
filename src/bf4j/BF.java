@@ -15,6 +15,9 @@ import java.util.Scanner;
  */
 public class BF {
 	
+	/* The brainfuck virtual machine consists of a data array and data pointer,
+	 * an instruction array and instruction pointer, and input and output streams.
+	 */
 	private byte[] data;
 	private int dataPtr = 0;
 	
